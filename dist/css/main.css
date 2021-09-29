@@ -1,0 +1,399 @@
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+span.secondary {
+  color: #164f91;
+}
+span.money {
+  color: #19b366;
+}
+
+.bg-lightblue {
+  background: #def9fa;
+}
+
+.bg-main {
+  background: #eae7dc;
+}
+
+.bg-secondary {
+  background: #164f91;
+}
+
+.bg-light {
+  background: #ddd;
+}
+
+.bg-dark {
+  background: #333;
+}
+
+.bg-medium {
+  background: #8e8d8a;
+}
+
+.container {
+  max-width: 1420px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1.5rem;
+}
+
+.btn-dark, .btn-light, .btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.btn-main {
+  color: #333;
+  background-color: #eae7dc;
+}
+.btn-light {
+  color: #333;
+  background-color: #ddd;
+}
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: #164f91;
+}
+
+.section-text {
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.underline {
+  border-bottom: 2px solid #8e8d8a;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  margin-right: 0;
+}
+.list li:last-child {
+  border-bottom: none;
+}
+.list li:hover a:hover {
+  color: #e98074;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  background: #eae7dc;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+#navbar {
+  background: #def9fa;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+}
+#navbar .navbar {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  height: 60px;
+  width: 100%;
+  padding: 0 1rem;
+  align-items: center;
+}
+#navbar .navbar a {
+  color: #333;
+  font-weight: 500;
+  margin-left: 25px;
+  padding: 7px 7px;
+}
+#navbar .navbar a:hover {
+  border-bottom: 2px solid #164f91;
+  color: #8e8d8a;
+}
+#navbar .navbar ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#navbar .navbar ul li {
+  height: 100%;
+  width: 100%;
+}
+
+header .showcase {
+  background: url("RADSnowBlowing/dist/img/snowblow_bg.jpg") no-repeat center center/cover;
+  height: calc(100vh - 60px);
+  position: relative;
+  z-index: 10;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+header .showcase h1 {
+  font-size: 4rem;
+  border-bottom: 2px solid #164f91;
+}
+header .showcase p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 1rem 2rem;
+}
+header .showcase .icons a {
+  padding: 0 1rem;
+  color: #fff;
+}
+header .showcase .icons a i.fa-youtube:hover {
+  color: #c4302b;
+}
+header .showcase .icons a i.fa-instagram:hover {
+  color: #e98074;
+}
+header .showcase .icons a i.fa-facebook:hover {
+  color: #3b5998;
+}
+header .showcase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -2;
+}
+
+section#about {
+  padding-bottom: 2rem;
+}
+section#about .section-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #eae7dc;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+section#about .section-items p {
+  padding: 0 1.2rem;
+  font-weight: 300;
+}
+section#about .section-items img {
+  border-radius: 50%;
+}
+section#gallery {
+  background: #f5daef;
+}
+section#gallery h3 {
+  text-align: center;
+}
+section#gallery p {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+section#gallery .gallery-items {
+  padding: 1.7rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #f5daef;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+section#gallery .gallery-items > div {
+  height: 400px;
+}
+section#gallery .gallery-items img {
+  height: 100%;
+  object-fit: cover;
+}
+section#gallery .gallery-items img:hover {
+  opacity: 0.8;
+}
+section#pricing {
+  padding-bottom: 2rem;
+}
+section#pricing .heading {
+  padding: 1rem 0;
+  width: 50%;
+  text-align: center;
+}
+section#pricing .price-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #eae7dc;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+section#pricing .price-item .price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #eae7dc;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+section#pricing .price-item .price-grid li {
+  font-size: 2rem;
+}
+section#pricing .price-item .quantities {
+  padding: 0 2.85rem;
+  text-align: right;
+  color: #164f91;
+}
+section#pricing .price-item .price-grid-style {
+  padding: 0 2.85rem;
+  text-align: left;
+  color: #164f91;
+}
+section#pricing .price-item img {
+  height: 400px;
+  object-fit: cover;
+}
+section#pricing .price-item p {
+  color: #333;
+  padding: 1rem 2rem;
+  font-weight: 300;
+}
+section#social .social-grid {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+section#social .social-grid > *:first-child {
+  grid-column: 1/span 2;
+}
+section#social .social-grid .grid-item {
+  padding: 0 2rem;
+}
+section#social .social-grid .grid-item h3 {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+section#social .social-grid .grid-item i {
+  padding: 2rem 0;
+  color: #e98074;
+  border-radius: 50%;
+  border: 2px solid #e98074;
+  padding: 35px 40px;
+  transition: all 0.5s ease;
+}
+section#social .social-grid .grid-item i:hover {
+  color: #164f91;
+  border-color: #164f91;
+}
+section#order h3 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background: #333;
+  color: #ddd;
+}
+footer .footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+footer .footer-grid .footer-item {
+  height: 100%;
+  padding: 0 2rem;
+}
+footer .footer-grid .footer-item h4 {
+  font-size: 1.3rem;
+  color: #e98074;
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+footer .footer-grid .footer-item a {
+  color: #ddd;
+}
+footer .footer-grid > *:last-child {
+  grid-column: 1/span 3;
+  background: #444;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=main.css.map */
