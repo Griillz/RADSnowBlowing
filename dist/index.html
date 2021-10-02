@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
@@ -13,7 +14,7 @@
       integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../dist/css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>RAD Snow Blowing</title>
   </head>
   <body id="home">
@@ -27,10 +28,11 @@
           <nav>
             <ul>
               <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <!-- <li><a href="#gallery">Gallery</a></li> -->
               <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#social">Order</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <!-- <li><a href="#social">Order</a></li> -->
             </ul>
           </nav>
         </div>
@@ -39,8 +41,8 @@
 
     <!-- header -->
     <header>
-      <div class="showcase">
-        <h1>Seasonal Snow Removal Services</h1>
+      <div class="showcase" background=url(/dist/img/Lemon (1).jpg)>
+        <h1>RAD Seasonal Snow Removal Services</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quae
           fugit asperiores aperiam itaque ullam.
@@ -49,39 +51,81 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="bg-main">
+    <section id="faq" class="bg-main">
       <div class="container">
         <div class="section-header">
-          <h3 class="heading">About Us</h3>
-          <p class="section-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing.
-          </p>
+          <h3 class="heading">Frequently Asked Questions</h3>
         </div>
         <div class="section-items">
-          <img src="/dist/img/Lemon (1).jpg" alt="" />
-          <div>
+          <div class="section-text">
+            <h3>
+              Will you shovel my walkway?
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
-              ullam repudiandae minus repellendus pariatur, voluptates earum
-              quia consequatur eos, odit officiis nemo, iste unde. Illum quia
-              porro quasi accusamus alias.
+              Although we do not hand shovel walkways as part of our seasonal driveway contracts, in order to keep our pricing affordable for everyone we will come out and provide you a quote for this additional service.
             </p>
           </div>
-          <div>
+          <div class="section-text">
+            <h3>
+              Will you spread salt on my driveway?
+            </h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, eius
-              aliquam corporis commodi molestias officia vitae temporibus
-              debitis sunt incidunt officiis non, alias fugit laudantium
-              dolorem, repudiandae nemo quae inventore!
+              Eco friendly ice melt application is an optional upgrade to your seasonal snow package. If purchased, we’ll return after every storm all season long and apply a non corrosive ice melter to the driveway. The goal is to cut through hard pack / ice. Slip free conditions are not guaranteed.            </p>
+          </div>
+          <div class="section-text">
+            <h3>
+              Can I leave a car parked in my driveway?
+            </h3>
+            <p>
+              Absolutely, our drivers are trained to work around cars to make sure you have no trouble getting out in the morning. Once the Town plow has passed we will return for a cleanup. At this time we will send out an email that we are on our way so you can move your car.            </p>
+          </div>
+          <div class="section-text">
+            <h3>
+              When are the driveway markers installed And removed?
+            </h3>
+            <p>
+              Our markers start going up late in October through early November. They will be taken out by early April. If you would like to remove them on your own sooner than that please place them by your garage and we will pick them up when we come around.           
             </p>
           </div>
-          <img src="/dist/img/Lemon (2).jpg" alt="" />
+          <div class="section-text">
+            <h3>
+              Will your tractors damage my driveway?
+            </h3>
+            <p>
+              Believe it or not our tractors actually put less pressure on your driveway than your car does! Our blowers are also equipped with plastic runners to drastically reduce the risk of damage to your driveway.           
+            </p>
+          </div>
+          <div class="section-text">
+            <h3>
+              FILLER TEXT
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio eveniet praesentium necessitatibus animi nostrum quasi dolores deleniti explicabo neque quae suscipit commodi ex labore officia, soluta molestiae cumque sit tenetur saepe nesciunt alias voluptate, voluptas illo. Nesciunt exercitationem dolores temporibus.           
+            </p>
+          </div>
+          <div class="section-text">
+            <h3>
+              My Driveway is Gravel, Can it Still Be Blown?
+            </h3>
+            <p>
+              No.            
+            </p>
+          </div>
+          <div class="section-text">
+            <h3>
+              What areas do you service?
+            </h3>
+            <p>
+              See Map Here.           
+            </p>
+          </div>
+          
         </div>
       </div>
     </section>
 
     <!-- Gallery -->
-    <section id="gallery" class="bg-lightblue gallery">
+    <!-- <section id="gallery" class="bg-lightblue gallery">
       <div class="container">
         <h3 class="heading">Our Products</h3>
         <div class="gallery-items">
@@ -168,44 +212,28 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Pricing -->
-    <section id="pricing" class="bg-main">
+    <section id="pricing" class="bg-lightblue">
       <div class="container">
         <div class="section-header">
           <h3 class="heading underline">Pricing</h3>
         </div>
-        <h3 class="heading">Bon Bons</h3>
         <div class="price-item">
-          <img src="../dist/img/espresso.jpg" alt="Chocolate" />
+          <img src="../dist/img/snowblow_bg.jpg" alt="Chocolate" />
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero
-              nihil, maxime alias reprehenderit non nam magni delectus cumque
-              illum!
-            </p>
+            <h1 class="price-heading">
+              Standard two car driveway
+            </h1>
             <div class="price-grid">
-              <ul class="quantities">
-                <li>2 Pack</li>
-                <li>4 Pack</li>
-                <li>6 Pack</li>
-                <li>8 Pack</li>
-                <li>12 Pack</li>
-                <li>24 Pack</li>
-              </ul>
-              <ul class="price-grid-style">
-                <li><span class="money">$</span>6</li>
-                <li><span class="money">$</span>10</li>
-                <li><span class="money">$</span>14</li>
-                <li><span class="money">$</span>18</li>
-                <li><span class="money">$</span>26</li>
-                <li><span class="money">$</span>48</li>
-              </ul>
+              <h3 class="section-text">
+              <span class="money">$</span>115 / month
+              </h3>
             </div>
           </div>
         </div>
-        <h3 class="heading">Caramel</h3>
+        <!-- <h3 class="heading">Caramel</h3>
         <div class="price-item">
           <img src="../dist/img/caramel.jpeg" alt="Chocolate" />
           <div>
@@ -285,13 +313,13 @@
                 <li><span class="money">$</span>25</li>
                 <li><span class="money">$</span>46</li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </section>
 
-    <section id="social" class="bg-lightblue">
+    <!-- <section id="social" class="bg-lightblue">
       <div class="container">
         <div class="social-grid">
           <div class="grid-item span2">
@@ -308,54 +336,108 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="order" class="bg-main">
-      <div class="container">
-        <h3 class="heading">Order Now!</h3>
-        <div class="container">
-          <table id="myTable" class=" table order-list">
-          <thead>
-              <tr>
-                  <td>Name</td>
-                  <td>Gmail</td>
-                  <td>Phone</td>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td class="col-sm-4">
-                      <input type="text" name="name" class="form-control" />
-                  </td>
-                  <td class="col-sm-4">
-                      <input type="mail" name="mail"  class="form-control"/>
-                  </td>
-                  <td class="col-sm-3">
-                      <input type="text" name="phone"  class="form-control"/>
-                  </td>
-                  <td class="col-sm-2"><a class="deleteRow"></a>
-      
-                  </td>
-              </tr>
-          </tbody>
-          <tfoot>
-              <tr>
-                  <td colspan="5" style="text-align: left;">
-                      <input type="button" class="btn btn-lg btn-block " id="addrow" value="Add Row" />
-                  </td>
-              </tr>
-              <tr>
-              </tr>
-          </tfoot>
-      </table>
+    <!--Section: Contact v.2-->
+<section id="contact" class="mb-4">
+<div class="container">
+  <!--Section heading-->
+  <h1 class="h1-responsive font-weight-bold text-center my-4 heading">Contact us</h1>
+  <!--Section description-->
+  <h3 class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will get back to you as soon as possible.</h3>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="validateForm();">Send</a>
+          </div>
+          <div class="status"></div>
       </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Glenville, NY 12302, USA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>518-709-7788</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>RADsnowblowing@gmail.com</p>
+              </li>
+          </ul>
       </div>
-    </section>
+      <!--Grid column-->
+</div>
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
 
     <footer>
       <div class="container">
         <div class="footer-grid">
-          <div class="footer-item">
+          <!-- <div class="footer-item">
             <h4>Keville </span>Chocolates</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
@@ -379,9 +461,9 @@
               <li><i class="fas fa-envelope-open-text"></i> Email</li>
               <li><i class="fas fa-map-marker-alt"></i> Address</li>
             </ul>
-          </div>
+          </div> -->
           <div class="footer-item">
-            <p>Copyright &copy; 2020 All Rights Reserved</p>
+            <p>Copyright &copy; 2021 All Rights Reserved</p>
           </div>
         </div>
       </div>
@@ -393,7 +475,6 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
-    <script src="../dist/js/lightbox.min.js"></script>
     <script src="../dist/js/email-form.js"></script>
 
     <script>

@@ -104,6 +104,14 @@ span.money {
   color: #164f91;
 }
 
+.price-heading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: #164f91;
+  align-items: center;
+  justify-content: center;
+}
+
 .section-text {
   padding-bottom: 1rem;
   font-weight: 300;
@@ -188,7 +196,7 @@ img {
 }
 
 header .showcase {
-  background: url("RADSnowBlowing/dist/img/snowblow_bg.jpg") no-repeat center center/cover;
+  background: url("../img/snowblow_bg.jpg") no-repeat center center/cover;
   height: calc(100vh - 60px);
   position: relative;
   z-index: 10;
@@ -232,22 +240,23 @@ header .showcase::before {
   z-index: -2;
 }
 
-section#about {
+section#faq {
   padding-bottom: 2rem;
 }
-section#about .section-items {
+section#faq .section-items {
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background: #eae7dc;
   justify-content: center;
   text-align: center;
-  align-items: center;
+  align-items: auto;
 }
-section#about .section-items p {
+section#faq .section-items p {
   padding: 0 1.2rem;
   font-weight: 300;
 }
-section#about .section-items img {
+section#faq .section-items img {
   border-radius: 50%;
 }
 section#gallery {
@@ -299,7 +308,7 @@ section#pricing .price-item {
 }
 section#pricing .price-item .price-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   background: #eae7dc;
   justify-content: center;
   text-align: center;

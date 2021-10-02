@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Griillz/RADSnowBlowing/issues"
   },
-  "homepage": "https://github.com/Griillz/RADSnowBlowing#readme"
+  "homepage": "https://github.com/Griillz/RADSnowBlowing#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
 }

@@ -73,8 +73,7 @@ img {
 // header
 header {
   .showcase {
-    background: url("RADSnowBlowing/dist/img/snowblow_bg.jpg") no-repeat center
-      center/cover;
+    background: url("../img/snowblow_bg.jpg") no-repeat center center/cover;
     height: calc(100vh - 60px);
     position: relative;
     z-index: 10;
@@ -130,15 +129,16 @@ header {
 
 section {
   // about section
-  &#about {
+  &#faq {
     padding-bottom: 2rem;
     .section-items {
+      padding-top: 2rem;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       background: $main-color;
       justify-content: center;
       text-align: center;
-      align-items: center;
+      align-items: auto;
 
       p {
         padding: 0 1.2rem;
@@ -209,7 +209,7 @@ section {
 
       .price-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         background: $main-color;
         justify-content: center;
         text-align: center;
